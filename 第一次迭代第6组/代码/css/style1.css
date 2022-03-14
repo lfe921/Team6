@@ -1,0 +1,42 @@
+#wholePage{
+  width:1000px;
+  margin:0 auto;
+  background: linear-gradient(to right,AliceBlue,Azure);
+}
+#Guide{
+  float:left;
+  width:225px;
+  height:720px;
+  position:fixed;
+  opacity:0.7;
+  margin-top:8px;
+  margin-left:10px;
+  background:Silver;
+  text-align:center;
+}
+#Guide:hover{opacity:0.9;}
+#guideBar{
+  width:200px;
+  height:40px;
+  background:linear-gradient(to right,Silver,DarkGray);
+  margin:0 auto;
+  text-align:center;
+  line-height:40px;
+  opacity:0.8;
+  margin-top:12px;
+}
+#guideBar:hover{opacity:1;}
+#Mainpart{
+  float:left;
+  width:745px;
+  margin-left:320px;
+  margin-top:10px;
+  background:WhiteSmoke;
+}
+#Adver{
+  height:20px;
+  width:745px;
+  margin-top:50px;
+  text-align:center;
+  line-height:20px;
+}

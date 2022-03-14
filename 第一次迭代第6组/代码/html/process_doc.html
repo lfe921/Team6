@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+  <title>Medical Process</title>
+  <link rel="stylesheet" type="text/css" href="../css/style1.css">
+  <link rel="stylesheet" type="text/css" href="../css/stepstyle.css">
+</head>
+
+<body id="wholePage">
+  <div id="Guide">
+    <h2 margin-top="20px">Guide</h2>
+    <div id="guideBar">
+      <a href="appointment.html">
+        <h3>Home</h3>
+      </a>
+    </div>
+    <div id="guideBar">
+      <a href="process_doc.html">
+        <h3>Medical Process</h3>
+      </a>
+    </div>
+    <div id="guideBar">
+      <a href="appointment.html">
+        <h3>My Account</h3>
+      </a>
+    </div>
+  </div>
+
+  <div id="Mainpart">
+    <div style="width:745px;">
+      <h2 align="center">当前患者医疗流程</h2>
+    </div>
+    <div class="CurState">
+      当前科室：口腔正畸科<br>当前进度：
+    </div>
+    <div id="middle">
+      <section class="stepRegister">
+        <div class="first">
+          <div class="number">口腔检查</div>
+          <div class="right-line"></div>
+        </div>
+        <div class="second">
+          <div class="left-line"></div>
+          <div class="number">设计正畸方案</div>
+          <div class="right-line"></div>
+        </div>
+        <div class="third">
+          <div class="left-line"></div>
+          <div class="number">制作矫正器</div>
+        </div>
+      </section>
+    </div>
+    <div style="width:1180px;height:800px;margin-top:150px;">
+      <div class="CurState">
+        设置当前患者下一步科室：<input type="text" list="office_list" name="office" />
+        <datalist id="office_list">
+          <option value="牙体病科">
+          <option value="儿童口腔科">
+          <option value="牙周黏膜病科">
+          <option value="牙病预防科">
+          <option value="口腔颌面外科">
+          <option value="牙齿种植中心">
+          <option value="特诊科">
+          <option value="修复科">
+          <option value="正畸科">
+          <option value="颞颌关节病科">
+          <option value="综合急诊科">
+          <option value="面瘫专科">
+          <option value="老年病科">
+          <option value="疼痛门诊">
+        </datalist>
+        <br><br>
+        设置当前患者下一步医疗流程：<input type="text" list="process_list" name="process" />
+        <datalist id="process_list">
+          <option value="挂号">
+          <option value="口腔检查">
+          <option value="设计正畸方案">
+          <option value="制作矫正器">
+          <option value="安装矫正器">
+          <option value="缴费">
+        </datalist>
+        <br><br>
+        <input type="submit" value="确认" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>

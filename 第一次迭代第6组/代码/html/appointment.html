@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+  <title>Make an Appointment</title>
+  <link rel="stylesheet" type="text/css" href="../css/style1.css">
+  <style type="text/css">
+    th,td{text-align:center;}
+    #appointsys{margin-top:100px;}
+  </style>
+</head>
+
+<body id="wholePage">
+  <div id="Guide">
+    <h2 margin-top="20px">Guide</h2>
+    <div id="guideBar">
+      <a href="appointment.html">
+        <h3>Home</h3>
+      </a>
+    </div>
+    <div id="guideBar">
+      <a href="appointment.html">
+        <h3>Appointment</h3>
+      </a>
+    </div>
+    <div id="guideBar">
+      <a href="process.html">
+        <h3>Medical Process</h3>
+      </a>
+    </div>
+    <div id="guideBar">
+      <a href="appointment.html">
+        <h3>My Account</h3>
+      </a>
+    </div>
+  </div>
+
+  <div id="Mainpart">
+    <div>
+    <h2 align="center">我的挂号</h2>
+    <table border="1" align="center">
+      <tr>
+        <th width="240px">科室</th>
+        <th width="160px">医生</th>
+        <th width="360px">时间段</th>
+        <th width="100px">剩余名额</th>
+        <th>挂号</th>
+      </tr>
+      <tr>
+        <td>牙体病科</td><td>张三</td><td>9:00am - 11:00am</td><td>50</td>
+        <td>
+          <input type="submit" value="取消挂号"/>
+        </td>
+      </tr>
+    </table>
+    </div>
+
+
+    <div id="appointsys">
+    <h2 align="center">挂号系统</h2>
+    <form name="appointment" action="html_form_action.asp" method="get">
+    <div align="center">
+      科室: <input type="text" list="office_list" name="office" />
+      <datalist id="office_list">
+        <option value="牙体病科">
+        <option value="儿童口腔科">
+        <option value="牙周黏膜病科">
+        <option value="牙病预防科">
+        <option value="口腔颌面外科">
+        <option value="牙齿种植中心">
+        <option value="特诊科">
+        <option value="修复科">
+        <option value="正畸科">
+        <option value="颞颌关节病科">
+        <option value="综合急诊科">
+        <option value="面瘫专科">
+        <option value="老年病科">
+        <option value="疼痛门诊">
+      </datalist>
+      医生: <input type="text" list="doctor_list" name="doctor" />
+      <datalist id="doctor_list">
+        <option value="张三">
+        <option value="李四">
+      </datalist>
+      时段: <input type="text" list="time_list" name="time" />
+      <datalist id="time_list">
+        <option value="7:00am - 9:00am">
+        <option value="9:00am - 11:00am">
+        <option value="13:00am - 15:00am">
+        <option value="15:00am - 17:00am">
+      </datalist>
+      <input type="submit" value="查询">
+    </div>
+    <table border="1" align="center">
+      <tr>
+        <th width="240px">科室</th>
+        <th width="160px">医生</th>
+        <th width="360px">时间段</th>
+        <th width="100px">剩余名额</th>
+        <th>挂号</th>
+      </tr>
+      <tr>
+        <td>牙体病科</td><td>张三</td><td>9:00am - 11:00am</td><td>50</td>
+        <td>
+          <input type="submit" value="预约"/>
+        </td>
+      </tr>
+      <tr>
+        <td>儿童口腔科</td><td>张三</td><td>9:00am - 11:00am</td><td>50</td>
+        <td>
+          <input type="submit" value="预约"/>
+        </td>
+      </tr>
+      <tr>
+        <td>牙周黏膜病科</td><td>张三</td><td>9:00am - 11:00am</td><td>50</td>
+        <td>
+          <input type="submit" value="预约"/>
+        </td>
+      </tr>
+    </table>
+    </div>
+
+    <div id="Adver">
+      联系我们	电话: 54749110	邮箱: *****
+    </div>
+  </div>
+</body>
+</html>
