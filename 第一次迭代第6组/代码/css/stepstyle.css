@@ -23,7 +23,8 @@
     float:left;
 }
 .stepRegister .third .number {
-    background-color: #9B9B9B;
+    /* background-color: #9B9B9B; */
+    background-color: rgba(0,0,0,.52);
 }
 .stepRegister .first .right-line,
 .stepRegister .second .left-line,
@@ -38,7 +39,8 @@
     width: 100px;
     height: 2px;
     margin-top:49px;
-    background-color: #9B9B9B;
+    /* background-color: #9B9B9B; */
+    background-color: rgba(0,0,0,.52);
     float:left;
 }
 .CurState{

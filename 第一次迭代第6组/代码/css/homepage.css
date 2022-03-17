@@ -1,17 +1,22 @@
 .body{
+    /* background-color: rgba(127, 255, 212, 0.445); */
+    background:no-repeat url("../img/sylake.jpg");
+}
+
+.container{
     width: 1000px;
     margin: 40px 10% 0px 10%;
-    height: 600px;
+    height: 700px;
 }
 
 .top {
     width: 100%;
-    height: 10%;
+    height: 60px;
     display: inline-block;
     background-color: rgba(0,0,0,.5);
     color:aqua;
-    box-shadow: 0 0px 10px aqua;;
-    border-radius: 15px;
+    box-shadow: 0 0px 10px rgb(252, 252, 252);
+    border-radius: 5px;
 }
  a{
     color: aqua;
@@ -29,7 +34,7 @@
 }
 .middle{
     width: 100%;
-    height: 90%;
+    height: 540px;
 }
 .keshiAll{
     float: left;
@@ -40,8 +45,8 @@
     align-content: center;
 }
 .keshiAll .keshiOne{
-    box-shadow: 0 5px 25px aqua;;
-    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(252, 252, 252);
+    border-radius: 5px;
     background-color: rgba(0,0,0,.5);
     color: aliceblue;
     height: 31%;
@@ -49,31 +54,87 @@
 .keshiAll ul{
     list-style: none;
     margin: 0px 0;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .name{
     font-weight:bold;
     color: aqua;
 }
-.pic{
+.welcome{
     float: left;
     box-sizing: border-box;
     width: 66%;
     height:98%;
-    background-size: cover;
-    background:no-repeat url("../img/bgpic.jpg");
-    box-shadow: 0 10px 80px #fffc36;
+    /* background-size: cover;
+    background:no-repeat url("../img/bgpic.jpg"); */
+    box-shadow: 0 10px 80px #ffe136;
     margin: 5px 20px 1px 20px;
-    border-radius: 15px;
+    border-radius: 5px;
+}
+.welcome h1{
+    width: 100%;
+    height:10%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.welcome .pic{
+    width: 100%;
+    height:86%;
+    background-size: cover;
+    background:no-repeat url("../img/bgpic.png");
+    border-radius:5px;
 }
 .intro{
     float: right;
     box-sizing: border-box;
     width: 20%;
-    height:100%;
+    height:99%;
     padding: 0px 4px 0px 4px;
     background-color: rgba(0,0,0,.5);
     color: aliceblue;
-    box-shadow: 0 5px 25px aqua;;
-    border-radius: 20px;
+    box-shadow: 0 5px 25px rgb(252, 252, 252);
+    border-radius: 5px;
+}
+
+.bottom{
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.community{
+    float: left;
+    width: 23%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    padding: 0px 10px 0px 10px;
+}
+.pic1{
+    float: left;
+    width: 19.5%;
+    height: 100%;
+    border-radius: 5px;
+    margin:2px;
+    background-color: rgb(126, 248, 96);
+}
+#p11{
+    background-size: cover;
+    background:no-repeat url("../img/yh11.png");
+}
+#p22{
+    background-size: cover;
+    background:no-repeat url("../img/yh22.png");
+}
+#p33{
+    background-size: cover;
+    background:no-repeat url("../img/yh33.png");
+}
+.advice{
+    float: right;
+    width: 13%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    padding: 0px 10px 0px 10px;
 }
