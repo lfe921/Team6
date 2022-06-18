@@ -1,0 +1,5 @@
+database maker在名为hospital_manager的数据库下运行
+hospital文件夹放在D:\Desktop
+运行时先启动redis-server.exe，然后用IDEA打开hospital文件夹项目，
+先右键server\src\main\java\com\yjq\programmer中的HospitalManageSystem点击Run，
+再点admin运行即可
